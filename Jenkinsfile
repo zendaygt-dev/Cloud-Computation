@@ -1,8 +1,8 @@
 pipeline {
  agent any
  environment {
-     IMAGE_NAME = 'youruser/simple-app'
-     REGISTRY_CREDENTIALS = 'dockerhub-credentials'
+     IMAGE_NAME = 'zendaydev/zendaygt-dev'
+     REGISTRY_CREDENTIALS = 'dckr_pat_nmRLj5mcqFaBmn6ui5Md5B8DWyU'
  }
  stages {
      stage('Checkout') { steps { checkout scm } }
