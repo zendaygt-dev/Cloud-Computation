@@ -2,7 +2,7 @@ pipeline {
  agent any
  environment {
      IMAGE_NAME = 'zendaydev/cloud-computation'
-     REGISTRY_CREDENTIALS = 'dckr_pat_4NKWp_ktvssigDp0_lJb2Zfdhsc'
+     REGISTRY_CREDENTIALS = 'dckr_pat_F7PRIkEN9pvIqAK-Yqp12Dx-D1E'
  }
  stages {
      stage('Checkout') { steps { checkout scm } }
