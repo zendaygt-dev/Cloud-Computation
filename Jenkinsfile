@@ -2,7 +2,7 @@ pipeline {
  agent any
  environment {
      IMAGE_NAME = 'zendaydev/cloud-computation'
-     REGISTRY_CREDENTIALS = 'dckr_pat_F7PRIkEN9pvIqAK-Yqp12Dx-D1E'
+     REGISTRY_CREDENTIALS = 'dockerhub-credentials'
  }
  stages {
      stage('Checkout') { steps { checkout scm } }
