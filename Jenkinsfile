@@ -1,7 +1,7 @@
 pipeline {
  agent any
  environment {
-     IMAGE_NAME = 'zendaydev/zendaygt-dev'
+     IMAGE_NAME = 'zendaydev/Cloud-Computation'
      REGISTRY_CREDENTIALS = 'dckr_pat_4NKWp_ktvssigDp0_lJb2Zfdhsc'
  }
  stages {
